@@ -1,0 +1,16 @@
+import 'package:flutter/material.dart';
+import 'package:tva_calculator/gradient_container.dart';
+
+void main() {
+  runApp(
+    MaterialApp(
+      home: Scaffold(
+        body: GradientContainer(
+          const Color.fromARGB(255, 14, 14, 206),
+          const Color.fromARGB(255, 10, 56, 94),
+        ),
+      ),
+      debugShowCheckedModeBanner: false,
+    ),
+  );
+}
